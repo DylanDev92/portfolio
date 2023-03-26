@@ -71,7 +71,7 @@ export default function Home({ apiData }) {
               <h1>{project.Name}</h1>
               <p>{project.Description}</p>
               <a href={project.Link} target="_blank">
-                <button>Open GitHub</button>
+                <button>Open This</button>
               </a>
             </div>
           );

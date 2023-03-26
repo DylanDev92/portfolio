@@ -25,7 +25,8 @@
                 "Discord bots",
                 "WinForms",
                 "VSCode",
-                "Visual Studio"
+                "Visual Studio",
+                "Docsify"
             ]
         },
         {
@@ -58,6 +59,26 @@
             "Name": "Movie List",
             "Description": "A movie list in Next.js is a web application that displays a collection of movies, allowing users to search movies.",
             "Link": "https://github.com/DylanDev92/movie-list-listify"
+        },
+        {
+            "Name": "Clothing E-Commerce",
+            "Description": "QRClothing, is built in Next.js, connected with an API to request designs, and it's fully functional.",
+            "Link": "https://qrclothing.shop/"
+        },
+        {
+            "Name": "GuideProtocol",
+            "Description": "GuideProtocol, is built in Docsify, it's a guide for basic modding in BrokeProtocol, incluiding Unity and Plugins.",
+            "Link": "https://github.com/DylanDev92/GuideProtocol"
+        },
+        {
+            "Name": "ChatBot connected to Instagram",
+            "Description": "This chatbot, is built in Node.js, connected to Instagram so you can sign in, read and reply messages.",
+            "Link": "https://github.com/DylanDev92/ChatBot-CleverBot"
+        },
+        {
+            "Name": "Love calculator in Instagram",
+            "Description": "This is built using React-Vite, connected to Instagram API.",
+            "Link": "https://github.com/DylanDev92/Instagram-Love-Calculator"
         },
         {
             "Name": "Portfolio",
