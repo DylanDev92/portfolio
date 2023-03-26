@@ -88,7 +88,7 @@ export default function Home({ apiData }) {
   );
 }
 export async function getServerSideProps(ctx){
-  const response = await fetch("http://0.0.0.0:3000/api/projectlist");
+  const response = await fetch(process.env.NEXT_PUBLIC_BASE_URL + "/api/projectlist");
   const apiData = await response.json();
   console.log(apiData);
 
