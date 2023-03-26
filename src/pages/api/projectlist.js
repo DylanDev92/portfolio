@@ -1,6 +1,10 @@
 const fs = require("fs");
+const path = require('path');
 
-var list = JSON.parse(fs.readFileSync("data/myprojects.json"));
+const file = path.join(process.cwd(), 'data', 'myprojects.json');
+const stringified = fs.readFileSync(file, 'utf8');
+
+var list = JSON.parse(stringified);
 
 export default function handler(req, res) {
 
