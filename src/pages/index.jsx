@@ -8,10 +8,6 @@ import { useState, useEffect } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ apiData }) {
-  useEffect(() => {
-    console.log(apiData);
-  }, []);
-
   return (
     <>
       <Head>
@@ -91,10 +87,14 @@ export default function Home({ apiData }) {
     </>
   );
 }
-
-export async function getStaticProps() {
-  const response = await fetch("http://localhost:3000/api/projectlist");
+export async function getServerSideProps(ctx){
+  const response = await fetch("http://0.0.0.0:" + process.env.PORT +"/api/projectlist");
   const apiData = await response.json();
   console.log(apiData);
-  return { props: { apiData } };
+
+  return {
+    props:{
+      apiData: apiData
+    }
+  }
 }

@@ -58,6 +58,11 @@
             "Name": "Movie List",
             "Description": "A movie list in Next.js is a web application that displays a collection of movies, allowing users to search movies.",
             "Link": "https://github.com/DylanDev92/movie-list-listify"
+        },
+        {
+            "Name": "Portfolio",
+            "Description": "This is what you're watching right now, my portfolio.",
+            "Link": "https://github.com/DylanDev92/portfolio"
         }
     ]
 }
