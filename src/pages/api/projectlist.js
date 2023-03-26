@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-var list = JSON.parse(fs.readFileSync("./data/myprojects.json"));
+var list = JSON.parse(fs.readFileSync("data/myprojects.json"));
 
 export default function handler(req, res) {
 
