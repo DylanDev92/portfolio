@@ -88,7 +88,7 @@ export default function Home({ apiData }) {
   );
 }
 export async function getServerSideProps(ctx){
-  const response = await fetch("http:localhost:3000/api/projectlist");
+  const response = await fetch("https://portfolio-dylandev92.vercel.app/api/projectlist");
   const apiData = await response.json();
   console.log(apiData);
 
