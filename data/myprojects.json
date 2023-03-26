@@ -1,0 +1,63 @@
+{
+    "skills": [
+        {
+            "Name": "Front-end",
+            "Skills": [
+                "HTML, CSS and SCSS",
+                "JavaScript",
+                "React & Next.js"
+            ]
+        },
+        {
+            "Name": "Back-end",
+            "Skills": [
+                "Node.js",
+                "API REST",
+                "MongoDB",
+                "MySQL"
+            ]
+        },
+        {
+            "Name": "Other",
+            "Skills": [
+                "Git and GItHub",
+                "Figma",
+                "Discord bots",
+                "WinForms",
+                "VSCode",
+                "Visual Studio"
+            ]
+        },
+        {
+            "Name": "Game-dev",
+            "Skills": [
+                "Unity 2D/3D",
+                "C#",
+                "Blender",
+                "Aseprite"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "Name": "Point of Sale",
+            "Description": "A C# POS system with WinForms manages sales, inventory, and customer data with a user-friendly interface, real-time updates.",
+            "Link": "https://github.com/DylanDev92/Sistema-POS"
+        },
+        {
+            "Name": "URL Shortener",
+            "Description": "A URL shortener made with vanilla JavaScript is a simple tool that takes a long URL and generates a short, unique identifier for it, making it easier to share.",
+            "Link": "https://github.com/DylanDev92/Url-Shortener"
+        },
+        {
+            "Name": "Task React",
+            "Description": "A task webapp in React is a dynamic tool for managing to-do lists and tracking progress. It offers a user-friendly interface and efficient state management, allowing users to easily add and delete.",
+            "Link": "https://github.com/DylanDev92/TaskReactApp"
+        },
+        {
+            "Name": "Movie List",
+            "Description": "A movie list in Next.js is a web application that displays a collection of movies, allowing users to search movies.",
+            "Link": "https://github.com/DylanDev92/movie-list-listify"
+        }
+    ]
+}
