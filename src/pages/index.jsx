@@ -33,10 +33,22 @@ export default function Home({ apiData }) {
           </h1>
         </div>
         <p>
-          I am a self-taught web and game developer currently studying at
-          Centennial College. At just 17 years old, I am motivated to continue
+          I am a self-taught web and game developer currently studying at 
+          <strong> Centennial College</strong>. At just 17 years old, I am motivated to continue
           developing my coding skills. With a passion for coding, I am excited
-          to see where my skills and dedication take me in the industry.
+          to see where my skills and dedication take me in the industry. I have been coding since I was 15 years old, starting from <strong>C#</strong> as my main language to <strong>JavaScript</strong> which I am focusing right now to be a really good <strong>Full-Stack</strong> developer.
+        </p>
+        <p>
+          This is my{" "}
+          <a
+            style={{ color: "black" }}
+            href="https://www.fiverr.com/dylandev92"
+            target="_blank"
+          >
+            Fiverr
+          </a>{" "}
+          where you can ask for my services, ask me questions, or even contact
+          me :D
         </p>
         <a href="https://github.com/DylanDev92" target="_blank">
           <button>Visit GitHub</button>
@@ -81,14 +93,15 @@ export default function Home({ apiData }) {
       <footer className={styles.footer}>
         <hr />
         <div>
-          <p style={{fontWeight: "700", margin: "1em"}}>Contact me:</p>
+          <p style={{ fontWeight: "700", margin: "1em" }}>Contact me:</p>
 
-          <form action="mailto:dylan20050902@gmail.com" method="post" className={styles.contact}>
+          <form
+            action="mailto:dylan20050902@gmail.com"
+            method="post"
+            className={styles.contact}
+          >
             <label htmlFor="message">Message:</label>
-            <textarea
-              id="message"
-              required
-            ></textarea>
+            <textarea id="message" required></textarea>
             <br />
             <input type="submit" value="Send" />
           </form>

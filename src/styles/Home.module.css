@@ -9,7 +9,7 @@
 }
 
 .skills {
-  margin-top: 15em
+  margin-top: 15em;
 }
 
 .footer hr {
@@ -30,11 +30,11 @@
   margin: 0;
 }
 
-.list :first-child{
+.list :first-child {
   margin-bottom: 10px;
 }
 
-.list :last-child{
+.list :last-child {
   margin-bottom: 10px;
 }
 
@@ -44,7 +44,7 @@
 
 .project {
   padding: 1em;
-  border: solid 2px #393E46;
+  border: solid 2px #393e46;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -66,7 +66,8 @@
   justify-content: center;
 }
 
-.contact > label, .contact > input {
+.contact > label,
+.contact > input {
   font-size: 20px;
   font-weight: 500;
 }
@@ -75,13 +76,18 @@
   border-radius: 10px;
   padding: 0.5em 1em;
   background-color: white;
-  border-width: 2.5px;
+  border-width: 2px;
   border-color: black;
+  background-color: #393e46;
+  color: #f7f7f7;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 700;
 }
 
 .contact > textarea {
   border-radius: 10px;
-  border-width: 2.5px;
+  border-width: 2px;
   width: 60%;
   padding: 0.5em;
   font-size: 15px;
