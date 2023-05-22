@@ -56,3 +56,35 @@
 .project p {
   margin: 10px 0px;
 }
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contact > label, .contact > input {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contact > input {
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  background-color: white;
+  border-width: 2.5px;
+  border-color: black;
+}
+
+.contact > textarea {
+  border-radius: 10px;
+  border-width: 2.5px;
+  width: 60%;
+  padding: 0.5em;
+  font-size: 15px;
+  resize: none;
+  border-color: black;
+}

@@ -80,6 +80,19 @@ export default function Home({ apiData }) {
 
       <footer className={styles.footer}>
         <hr />
+        <div>
+          <p style={{fontWeight: "700", margin: "1em"}}>Contact me:</p>
+
+          <form action="mailto:dylan20050902@gmail.com" method="post" className={styles.contact}>
+            <label htmlFor="message">Message:</label>
+            <textarea
+              id="message"
+              required
+            ></textarea>
+            <br />
+            <input type="submit" value="Send" />
+          </form>
+        </div>
         <p>
           This portfolio is built in <strong>Next.js</strong>
         </p>
@@ -87,14 +100,16 @@ export default function Home({ apiData }) {
     </>
   );
 }
-export async function getServerSideProps(ctx){
-  const response = await fetch(process.env.NEXT_PUBLIC_BASE_URL + "/api/projectlist");
+export async function getServerSideProps(ctx) {
+  const response = await fetch(
+    process.env.NEXT_PUBLIC_BASE_URL + "/api/projectlist"
+  );
   const apiData = await response.json();
   console.log(apiData);
 
   return {
-    props:{
-      apiData: apiData
-    }
-  }
+    props: {
+      apiData: apiData,
+    },
+  };
 }
