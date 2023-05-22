@@ -84,6 +84,21 @@
             "Name": "Portfolio",
             "Description": "This is what you're watching right now, my portfolio.",
             "Link": "https://github.com/DylanDev92/portfolio"
+        },
+        {
+            "Name": "Salud+",
+            "Description": "Fiverr's client website. Using NextJS",
+            "Link": "https://saludnext.vercel.app/"
+        },
+        {
+            "Name": "tbh.bio",
+            "Description": "My social-media project. Using NextJS, Express.JS, MongoDB, etc...",
+            "Link": "https://tbh.bio/"
+        },
+        {
+            "Name": "Semi-Automated YouTube videos",
+            "Description": "My YouTube channel automatized with NextJS, and different APIs",
+            "Link": "https://youtube.com/@DylansLo-Fi"
         }
     ]
 }
