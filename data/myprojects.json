@@ -100,6 +100,11 @@
             "Name": "Semi-Automated YouTube videos",
             "Description": "My YouTube channel automatized with NextJS, and different APIs",
             "Link": "https://youtube.com/@DylansLo-Fi"
+        },
+        {
+            "Name": "Table-Generator Assignment",
+            "Description": "Table generator assignment for Centennial College. Made with HTML/CSS and vanilla JavaScript",
+            "Link": "https://github.com/DylanDev92/tables-generator"
         }
     ]
 }
